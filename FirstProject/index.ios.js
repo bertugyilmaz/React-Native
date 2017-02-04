@@ -15,23 +15,23 @@ import {
 export default class FirstProject extends Component {
   render() {
     return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome to React Native!
+      <View style={styles.container}> // View Layout unuz. Style ile biçimlendirilmiş.
+        <Text style={styles.welcome}>// Text tag imiz
+          React Navite Hoşgeldiniz.
         </Text>
         <Text style={styles.instructions}>
-          To get started, edit index.ios.js
+        index.ios.js editleyerek başlayabilirsin
         </Text>
         <Text style={styles.instructions}>
-          Press Cmd+R to reload,{'\n'}
-          Cmd+D or shake for dev menu
+          Cmd+R ile yenileyebilirsiniz,{'\n'}
+          veya Cmd+D ile menüyü açabilirsiniz.
         </Text>
       </View>
     );
   }
 }
 
-const styles = StyleSheet.create({
+const styles = StyleSheet.create({      // Stillerinizin özelliklerini belirlediğiniz işlem satırı..
   container: {
     flex: 1,
     justifyContent: 'center',
